@@ -97,3 +97,6 @@ optimizer :SGD
 
 I can Only evaluate the results on the validation set as the labels for the test set are not released
 
+<img src="images/confusion.png"/>
+
+<img src="images/auc.png"/>
