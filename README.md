@@ -56,4 +56,24 @@ Brightness and Gauss Noise
 
 JPEG Compression 
 
-On top of that the image is cropped at random to exclude some of the edges of the photo
+**On top of that the image is cropped at random to exclude some of the edges of the photo**
+
+
+
+### Model hyperparameters
+Num classes: 2
+
+Image size (96,96,3)
+
+Batch size: 15000
+
+Validation split 10%
+
+Num epochs: 30
+
+Learning rate: 0.01
+
+Decay = 1e-3
+
+optimizer :SGD
+
