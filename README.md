@@ -60,7 +60,7 @@ JPEG Compression
 
 
 
-###Model architecture
+### Model architecture
 <img src="images/nasnet.png"/>
 
 
@@ -75,9 +75,7 @@ Validation split 10%
 
 Num epochs: 30
 
-Learning rate: 0.01
-
-Decay = 1e-3
+Learning rate: 1e-3
 
 optimizer :SGD
 
