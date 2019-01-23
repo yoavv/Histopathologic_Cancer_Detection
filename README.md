@@ -64,7 +64,20 @@ JPEG Compression
 <img src="images/nasnet.png"/>
 
 
-### Model hyperparameters
+### Model hyperparameters exploration
+
+I tried several learning rate and concludeed that ~0.01 is the optimal
+
+<img src="images/learning_rate.png"/>
+We notice that loss decreases nicely over the course of the epoch
+
+<img src="images/batches.png"/>
+
+The evaluation of the results on the train and validation sets
+
+<img src="images/training.png"/>
+
+### Final hyperparameters
 Num classes: 2
 
 Image size (96,96,3)
