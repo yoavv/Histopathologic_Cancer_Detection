@@ -78,6 +78,7 @@ The evaluation of the results on the train and validation sets
 <img src="images/training.png"/>
 
 ### Final hyperparameters
+After optimizing the hyperparameters I came to the following configuration:
 Num classes: 2
 
 Image size (96,96,3)
@@ -91,4 +92,8 @@ Num epochs: 30
 Learning rate: 1e-3
 
 optimizer :SGD
+
+## Results
+
+I can Only evaluate the results on the validation set as the labels for the test set are not released
 
