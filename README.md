@@ -1,2 +1,2 @@
-# Histopathologic_Cancer_Detection
+# HistopathologicCancer Detection
 create an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans
