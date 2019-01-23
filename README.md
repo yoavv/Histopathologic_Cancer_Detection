@@ -22,3 +22,38 @@ The original PCam dataset contains duplicate images due to its probabilistic sam
 ~40.5% positive
 
 ~59.5 Negative
+
+
+## Data Preprocessing
+
+The following Augmentation are ran at random on the train set , changing every epoch
+
+Blur
+
+Rotation 
+
+Translation 
+
+Fancy PCA 
+
+Brightness 
+
+Increase Color Saturation 
+
+Motion Blur 
+
+Contrast 
+
+Gauss Noise 
+
+Contrast and Blur 
+
+Contrast and Brightness 
+
+Brightness and Blur 
+
+Brightness and Gauss Noise 
+
+JPEG Compression 
+
+On top of that the image is cropped at random to exclude some of the edges of the photo
