@@ -59,6 +59,9 @@ JPEG Compression
 **On top of that the image is cropped at random to exclude some of the edges of the photo**
 
 
+Model architecture
+<img src="images/nasnet.png"/>
+
 
 ### Model hyperparameters
 Num classes: 2
@@ -70,6 +73,7 @@ Batch size: 15000
 Validation split 10%
 
 Num epochs: 30
+
 Learning rate: 0.01
 
 Decay = 1e-3
