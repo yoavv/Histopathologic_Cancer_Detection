@@ -59,7 +59,8 @@ JPEG Compression
 **On top of that the image is cropped at random to exclude some of the edges of the photo**
 
 
-Model architecture
+
+###Model architecture
 <img src="images/nasnet.png"/>
 
 
