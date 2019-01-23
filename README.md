@@ -70,7 +70,6 @@ Batch size: 15000
 Validation split 10%
 
 Num epochs: 30
-
 Learning rate: 0.01
 
 Decay = 1e-3
