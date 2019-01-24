@@ -1,7 +1,7 @@
 # Histopathologic Cancer Detection
 
 ## overview
-in the axilla are the first place breast cancer is likely to spread. Metastatic involvement of lymph nodes is one of the most important prognostic factors in breast cancer. Prognosis is poorer when cancer has spread to the lymph nodes. This is why lymph nodes are surgically removed and examined microscopically. However, the diagnostic procedure for pathologists is tedious and time-consuming. But most importantly, small metastases are very difficult to detect and sometimes they are missed.
+The axilla are the first place breast cancer is likely to spread. Metastatic involvement of lymph nodes is one of the most important prognostic factors in breast cancer. Prognosis is poorer when cancer has spread to the lymph nodes. This is why lymph nodes are surgically removed and examined microscopically. However, the diagnostic procedure for pathologists is tedious and time-consuming. But most importantly, small metastases are very difficult to detect and sometimes they are missed.
 create an algorithm to identify metastatic cancer in small image patches taken from larger digital pathology scans
 
 <img src="images/explore1.png" width=400/>
@@ -95,7 +95,9 @@ optimizer :SGD
 
 ## Results
 
-I can Only evaluate the results on the validation set as the labels for the test set are not released
+I can Only evaluate the results on the validation set as the labels for the test set are not released.
+
+The results are very accurate compared to the random baseline of 60%
 
 <img src="images/confusion.png"/>
 
